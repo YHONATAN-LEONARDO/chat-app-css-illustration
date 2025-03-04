@@ -1,0 +1,126 @@
+:root {
+  --violeta-palido: hsl(277, 65%, 87%);
+  --violeta-moderado: hsl(276, 55%, 52%);
+  --violeta-desaturado-oscuro: hsl(271, 15%, 43%);
+  --azul-grisaceo: hsl(206, 6%, 79%);
+  --violeta-desaturado-muy-oscuro: hsl(271, 36%, 24%);
+  --violeta-grisaceo-oscuro: hsl(270, 7%, 64%);
+
+  --magenta-claro: hsl(293, 100%, 63%);
+  --violeta-claro: hsl(264, 100%, 61%);
+
+  --blanco: hsl(0, 0%, 100%);
+  --violeta-grisaceo-claro: hsl(270, 20%, 96%);
+  --violeta-desaturado-muy-oscuro-boton-enviar: hsl(271, 36%, 24%);
+  --magenta-muy-claro: hsl(289, 100%, 72%);
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+img {
+  height: 50px;
+  height: 50px;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+.celular {
+  background-color: var(--blanco);
+  padding: 1rem;
+  box-shadow: 0.6rem 1rem 5rem black;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 4rem;
+}
+.contenedor {
+  background-color: var(--violeta-grisaceo-claro);
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.descripcion {
+  display: flex;
+  background: linear-gradient(
+    to left,
+    var(--magenta-claro),
+    var(--violeta-claro)
+  );
+  border-radius: 32px 32px 1rem 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.imagen img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: solid 1px var(--blanco);
+}
+
+.imagen {
+  display: flex;
+  gap: 1rem;
+}
+.descripcion p {
+  color: var(--blanco);
+  margin: 0;
+}
+.descripcion p:first-child {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.descripcion p:last-child {
+  font-size: 1rem;
+}
+.mesaje-izquierda p {
+  color: var(--violeta-claro);
+  background-color: var(--violeta-palido);
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 300;
+  width: 15rem;
+}
+.dogs {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+.dogs img {
+  border-radius: 1.3rem;
+}
+.mensaje-derecha {
+  align-items: end;
+}
+.mensaje-derecha p {
+  background-color: var(--blanco);
+  width: 15rem;
+  margin-left: auto;
+  border-radius: 1.3rem;
+  padding: 0.5rem;
+}
+.especiales {
+  background: linear-gradient(
+    to left,
+    var(--violeta-claro),
+    var(--magenta-claro)
+  );
+  color: white;
+  width: 15rem;
+  padding: .8rem;
+  border-radius: 1rem 1rem .8rem 4px;
+}
+.especiales b{
+
+  
+}
